@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Level up Consulting</title>
     <link rel="icon" href="imagenes/feliz.png" type="image/x-icon">
 </head>
+
 <body>
     <main>
         <section>
@@ -17,7 +19,29 @@
                 </ul>
             </nav>
         </section>
+
+        <section>
+            <form action="/action_page.php">
+                <label for="fname">Nombre completo:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+
+                <label for="cars">¿Cual es su problema?:</label>
+                <select id="cars" name="cars">
+                    <option value="agenda">Caos en la Agenda</option>
+                    <option value="miedo">"Miedo" a la Tecnología</option>
+                    <option value="identidad">Falta de Identidad Digital</option>
+                    <option value="datos">Inseguridad y Pérdida de Datos</option>
+                    <option value="estancamiento">Estancamiento del Negocio</option>
+                    <option value="otro">Otro</option>
+
+                    <textarea name="message" rows="10" cols="30">
+The cat was playing in the garden.
+</textarea>
+                    <input type="submit" value="Submit">
+            </form>
+        </section>
     </main>
-    
+
 </body>
+
 </html>
