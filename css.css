@@ -80,19 +80,22 @@ nav a:hover::after {
 /*hero, Producto*/
 #Hero,
 #Producto,
-#Beneficios {
+#Beneficios{
     padding: 4rem 1.5rem;
 }
 
 #Hero article,
-#Producto article {
+#Producto article,
+#atencion article,
+#action{
     max-width: 900px;
     margin: auto;
     text-align: center;
 }
 
 #Hero h2,
-#Producto h2 {
+#Producto h2,
+#atencion h2 {
     font-size: 2rem;
     color: var(--ColorPrincipal);
     margin-bottom: 1rem;
@@ -105,7 +108,8 @@ nav a:hover::after {
 }
 
 #Hero p,
-#Producto p {
+#Producto p,
+ {
     font-size: 1.1rem;
     color: #4a4a4a;
 }
@@ -117,7 +121,8 @@ nav a:hover::after {
 }
 
 #Servicios,
-#Beneficios {
+#Beneficios, 
+#action {
     max-width: 1200px;
     margin: 4rem auto;
     padding: 0 1.5rem;
@@ -127,7 +132,8 @@ nav a:hover::after {
 }
 
 #Servicios article,
-#Beneficios article {
+#Beneficios article,
+fieldset{
     background-color: var(--ColorClarito);
     padding: 2rem;
     border-radius: var(--radius);
@@ -198,4 +204,9 @@ footer p {
 #footer_Redes a {
     margin: 0 0.5rem;
     display: inline-block;
+}
+
+fieldset{
+    border-radius: var(--radius);
+    background-color: var(----ColorBordes);
 }
