@@ -102,7 +102,7 @@ nav a {
     background-size: cover;
     background-position: right center;
     background-repeat: no-repeat;
-    min-height: 80vh;
+    min-height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -163,7 +163,6 @@ nav a {
     border-radius: var(--radius);
     box-shadow: var(--shadow-soft);
     border-top: 6px solid var(--ColorSecundario);
-    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 #Servicios article:hover, #cronologia-clave article:hover {
